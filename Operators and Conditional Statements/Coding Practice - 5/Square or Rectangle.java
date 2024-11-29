@@ -1,5 +1,9 @@
-import java.util.*;
-class main{
-public static void main(String[] args){
-System.out.println("Hello World");}
+import java.util.Scanner;
+class Main{
+    public static void main(String[] args){
+        Scanner input = new Scanner(System.in);
+        int len = input.nextInt();
+        int breadth = input.nextInt();
+        System.out.println(len == breadth ? "Square" : "Rectangle");
+    }
 }
