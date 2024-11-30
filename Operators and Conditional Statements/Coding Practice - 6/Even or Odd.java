@@ -1,5 +1,8 @@
 import java.util.*;
-class main{
-public static void main(String[] args){
-System.out.println("Hello World");}
+class Main{
+    public static void main(String[] args){
+        Scanner input = new Scanner(System.in);
+        int number = input.nextInt();
+        System.out.println((number % 2 == 0) ? ("Even") : ("Odd"));
+    }
 }
