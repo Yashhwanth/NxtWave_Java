@@ -1,8 +1,10 @@
 import java.util.*;
-class Main{
-    public static void main(String[] args){
+class Main {
+    public static void main(String[] args) { 
+        // Write your code here
         Scanner input = new Scanner(System.in);
-        int number = input.nextInt();
-        System.out.println((number % 2 == 0) ? ("Even") : ("Odd"));
+        int cp = input.nextInt();
+        int sp = input.nextInt();
+        System.out.println((sp > cp) ? ("Profit") : (((sp < cp) ? ("Loss") : ("No Profit - No Loss"))));
     }
 }
