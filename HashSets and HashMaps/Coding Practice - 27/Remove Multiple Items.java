@@ -15,6 +15,5 @@ class Main {
         ArrayList<Integer> list1 = new ArrayList<>(setItems);
         Collections.sort(list1);
         System.out.println(list1);
-        // Write your code here
     }
 }
